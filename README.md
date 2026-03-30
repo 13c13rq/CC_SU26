@@ -20,3 +20,11 @@ Code Collective is a supportive community for  critical–creative coding. It is
 
 Code Collective takes place at **TBD** at KHM on Thursdays 11.00-13.00 CEST
 
+16 April–9 July, 2026
+
+Contact Sarah for information on how to join
+
+## Why
+
+
+
