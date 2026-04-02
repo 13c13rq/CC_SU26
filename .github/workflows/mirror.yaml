@@ -27,5 +27,6 @@ jobs:
           # owner: codecollectiveKHM
           # repo: CC_SU26
           create: true
-          username: codecollective
+          username: sarahciston
           password: ${{ secrets.CODEBERG_TOKEN }}
+
