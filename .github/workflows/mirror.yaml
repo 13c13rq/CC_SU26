@@ -1,32 +1,11 @@
-name: Mirror Repository Action
-# uses: cssnr/mirror-repository-action@v1.2.0
-
-on:
-  workflow_dispatch:
-  push:
-    branches: ['**']
-    tags: ['**']
-
-jobs:
-  mirror:
-    name: 'Mirror'
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: 'Checkout'
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: 'Mirror to Codeberg'
-        uses: cssnr/mirror-repository-action@v1
-        with:
-          url: https://github.com/codecollectiveKHM/CC_SU26.git
-          host: https://codeberg.org
-          # owner: codecollectiveKHM
-          # repo: CC_SU26
-          create: true
-          username: sarahciston
-          password: ${{ secrets.CODEBERG_TOKEN }}
-
+on: [push]
+  ...
+      steps:
+        - uses: actions/checkout@v3
+          with:
+            fetch-depth: 0
+        - uses: yesolutions/mirror-action@master
+          with:
+            REMOTE: 'https://github.com/codecollectiveKHM/CC_SU26.git'
+            GIT_USERNAME: sarahciston
+            GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}

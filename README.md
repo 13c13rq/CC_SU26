@@ -22,9 +22,8 @@ Contact [Sarah](sarah.ciston@khm.de) to join
 
 **Prof. Dr. Sarah Ciston** (they) [sarah dot ciston at khm dot de](sarah.ciston@khm.de)
 
-Sprechstunden: 
+Sprechstunden: https://tinyurl.com/chatwsarah (Make a time to chat with Sarah)
 
-https://tinyurl.com/chatwsarah (Make a time to chat with Sarah)
 Tues 11.00–13.00, Co-working @ Lab  
 Tues 14.00–15.50, 1:1 Appointments @ Heumarkt 14, R3.19  
 Thurs 14.00–16.00, Appointments/Co-working @ Lab  
