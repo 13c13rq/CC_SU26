@@ -1,13 +1,13 @@
 on: 
-#   workflow_dispatch:
-#   push:
-#     branches: ['**']
-#     tags: ['**']
+  workflow_dispatch:
+  push:
+    branches: ['**']
+    tags: ['**']
 
-# jobs:
-#   mirror:
-#       runs-on: ubuntu-latest
-#       timeout-minutes: 5
+jobs:
+  mirror:
+      runs-on: ubuntu-latest
+      timeout-minutes: 5
       steps:
         - uses: actions/checkout@v3
           with:

@@ -14,7 +14,7 @@ Code Collective is a supportive community for  critical–creative coding. It is
 
 ## Where & When
 
-Seminars every Thursday 11.00-13.00 CEST, 16 April–9 July 2026 at **TBD**, KHM
+Seminars every Thursday 11.00-13.00 CEST, 16 April–9 July 2026 at Lab **TBD**, KHM
 
 Contact [Sarah](sarah.ciston@khm.de) to join
 
